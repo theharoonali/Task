@@ -25,3 +25,19 @@ function buttonThree() {
     document.getElementById("thisID2A").innerHTML = "Sub-Menu C";
     document.getElementById("thisID2B").innerHTML = "Sub-Menu C (2)";
 }
+function pmFunction() {
+    var pMinus1Element = document.getElementById("pminus");
+    if (pMinus1Element.innerHTML === '-') {
+        pMinus1Element.innerHTML = '+';
+    } else {
+        pMinus1Element.innerHTML = '-';
+    }
+}
+function pmFunction2() {
+    var pMinus2Element = document.getElementById("pminus2");
+    if (pMinus2Element.innerHTML === '-') {
+        pMinus2Element.innerHTML = '+';
+    } else {
+        pMinus2Element.innerHTML = '-';
+    }
+}

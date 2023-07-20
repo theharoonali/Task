@@ -53,3 +53,15 @@ button {
   height: 200px;
   padding: 10px;
 }
+span{
+  text-decoration: none !important;
+  color: black;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 2px 5px;
+  margin-left:10px ;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
